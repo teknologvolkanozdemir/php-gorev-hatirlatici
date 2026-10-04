@@ -4,7 +4,7 @@ MySQL'de kalıcı olarak saklanan görevler için PHP yönetim paneli ve SMTP e-
 
 ## Gereksinimler
 
-- PHP 8.1 veya üzeri; `pdo_mysql` ve `openssl` eklentileri
+- PHP 8.1 veya üzeri; `pdo_mysql`, `openssl` ve `mbstring` eklentileri
 - MySQL 5.7+ veya MariaDB 10.2+
 - Hatırlatmalar için sunucuda cron desteği ve SMTP hesabı
 
