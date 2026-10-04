@@ -30,7 +30,7 @@ MySQL'de kalıcı olarak saklanan görevler için PHP yönetim paneli ve SMTP e-
    * * * * * /usr/bin/php /var/www/hatirlatici/reminder.php
    ```
 
-   Cron işleminin de `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD` ve `APP_URL` ortam değişkenlerini alması gerekir. Hosting paneliniz cron için ayrı ortam değişkenleri sunuyorsa aynı değerleri orada tanımlayın. Hatırlatmalar zamanı gelmiş ve son tarihi henüz geçmemiş görevler için gönderilir; geçici SMTP hatalarında en az 15 dakika sonra yeniden denenir.
+   Cron işleminin de `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `APP_URL` ve `APP_TIMEZONE` ortam değişkenlerini alması gerekir. Hosting paneliniz cron için ayrı ortam değişkenleri sunuyorsa aynı değerleri orada tanımlayın. Hatırlatmalar zamanı gelmiş ve son tarihi henüz geçmemiş görevler için gönderilir; geçici SMTP hatalarında en az 15 dakika sonra yeniden denenir.
 
 ## Yerel kullanım ve kayıtlar
 
